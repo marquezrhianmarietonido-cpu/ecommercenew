@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sign In | Rosé Beauty</title>
+
+    <link rel="stylesheet" href="ecommercenew.css">
+
+</head>
+
+
+<body>
+
+
+    <!-- ================= NAVIGATION ================= -->
+
+    <header class="header">
+
+        <nav class="navbar">
+
+            <a href="index.html" class="logo">
+                Rosé<span>Beauty</span>
+            </a>
+
+
+            <ul class="nav-links">
+
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+
+                <li>
+                    <a href="about.html">About</a>
+                </li>
+
+                <li>
+                    <a href="shop.html">Shop</a>
+                </li>
+
+                <li>
+                    <a href="signin.html">Sign In</a>
+                </li>
+
+                <li>
+                    <a href="signup.html">Sign Up</a>
+                </li>
+
+                <li>
+                    <a href="inquiry.html">Contact</a>
+                </li>
+
+            </ul>
+
+
+            <div class="top-search">
+
+                <span>⌕</span>
+
+                <input
+                    type="text"
+                    id="productSearch"
+                    placeholder="Search products..."
+                >
+
+            </div>
+
+
+            <div class="cart">
+
+                🛍️
+
+                <span id="cartCount">0</span>
+
+            </div>
+
+        </nav>
+
+    </header>
+
+
+
+    <main>
+
+
+        <!-- ================= SIGN IN ================= -->
+
+        <section class="account-section">
+
+            <div class="account-box">
+
+
+                <div class="account-side">
+
+                    <span>
+                        WELCOME BACK
+                    </span>
+
+                    <h2>
+
+                        Good to see
+                        <em>you.</em>
+
+                    </h2>
+
+                    <p>
+
+                        Sign in to continue your
+                        Rosé Beauty experience.
+
+                    </p>
+
+                </div>
+
+
+
+                <div class="form-area">
+
+                    <h3>
+                        Sign In
+                    </h3>
+
+                    <p class="form-subtitle">
+                        Enter your account details below.
+                    </p>
+
+
+                    <form onsubmit="return validateSignIn()">
+
+
+                        <label>
+                            Email Address
+                        </label>
+
+                        <input
+                            type="email"
+                            id="loginEmail"
+                            placeholder="you@example.com"
+                        >
+
+
+                        <label>
+                            Password
+                        </label>
+
+                        <input
+                            type="password"
+                            id="loginPassword"
+                            placeholder="Enter your password"
+                        >
+
+
+                        <p
+                            id="loginMessage"
+                            class="form-message">
+                        </p>
+
+
+                        <button
+                            type="submit"
+                            class="form-button"
+                        >
+                            Sign In
+                        </button>
+
+
+                    </form>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+    </main>
+
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        <div class="footer-top">
+
+
+            <div class="footer-brand">
+
+                <a href="index.html" class="logo">
+                    Rosé<span>Beauty</span>
+                </a>
+
+                <p>
+                    Simple beauty for every version of you.
+                </p>
+
+            </div>
+
+
+
+            <div class="footer-column">
+
+                <h4>
+                    SHOP
+                </h4>
+
+                <a href="shop.html">
+                    Lips
+                </a>
+
+                <a href="shop.html">
+                    Face
+                </a>
+
+                <a href="shop.html">
+                    Eyes
+                </a>
+
+                <a href="shop.html">
+                    Cheeks
+                </a>
+
+                <a href="shop.html">
+                    All Products
+                </a>
+
+            </div>
+
+
+
+            <div class="footer-column">
+
+                <h4>
+                    ABOUT
+                </h4>
+
+                <a href="about.html">
+                    Our Story
+                </a>
+
+                <a href="inquiry.html">
+                    Contact
+                </a>
+
+                <a href="inquiry.html">
+                    Inquiry
+                </a>
+
+            </div>
+
+
+
+            <div class="footer-column">
+
+                <h4>
+                    ACCOUNT
+                </h4>
+
+                <a href="signin.html">
+                    Sign In
+                </a>
+
+                <a href="signup.html">
+                    Sign Up
+                </a>
+
+            </div>
+
+
+        </div>
+
+
+
+        <div class="footer-bottom">
+
+            <span>
+                © 2026 Rosé Beauty. All Rights Reserved.
+            </span>
+
+            <span>
+                Made with ♡
+            </span>
+
+        </div>
+
+    </footer>
+
+
+    <script src="ecommercenew.js"></script>
+
+</body>
+
+</html>

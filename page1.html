@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Rosé Beauty | Makeup & Beauty</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Playfair+Display:ital,wght@0,400;0,500;1,400&display=swap"
+        rel="stylesheet"
+    >
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="ecommercenew.css">
+
+</head>
+
+
+<body>
+
+
+    <!-- =====================================================
+         NAVIGATION
+    ====================================================== -->
+
+    <header class="header">
+
+        <nav class="navbar">
+
+            <a href="index.html" class="logo">
+                Rosé<span>Beauty</span>
+            </a>
+
+
+            <ul class="nav-links">
+
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+
+                <li>
+                    <a href="#about">About</a>
+                </li>
+
+                <li>
+                    <a href="shop.html">Shop</a>
+                </li>
+
+                <li>
+                    <a href="shop.html#signin">Sign In</a>
+                </li>
+
+                <li>
+                    <a href="shop.html#signup">Sign Up</a>
+                </li>
+
+                <li>
+                    <a href="shop.html#contact">Contact</a>
+                </li>
+
+            </ul>
+
+
+            <div class="top-search">
+
+                <span>⌕</span>
+
+                <input
+                    type="text"
+                    id="productSearch"
+                    placeholder="Search products..."
+                    onkeyup="searchProducts()"
+                >
+
+            </div>
+
+
+            <div class="cart">
+
+                🛍️
+
+                <span id="cartCount">0</span>
+
+            </div>
+
+        </nav>
+
+    </header>
+
+
+
+    <!-- =====================================================
+         HERO
+    ====================================================== -->
+
+    <section class="hero" id="home">
+
+
+        <div class="hero-content">
+
+            <div class="hero-label">
+                NEW BEAUTY COLLECTION 2026
+            </div>
+
+
+            <h1>
+                Timeless beauty,
+                <span>made for you.</span>
+            </h1>
+
+
+            <p>
+                Discover carefully selected beauty essentials
+                designed to make your everyday routine feel
+                effortless, elegant, and uniquely yours.
+            </p>
+
+
+            <div class="hero-buttons">
+
+                <a href="shop.html" class="primary-btn">
+                    Shop Collection
+                </a>
+
+                <a href="#about" class="secondary-btn">
+                    Discover More
+                </a>
+
+            </div>
+
+
+            <div class="hero-note">
+                Cruelty-free • Everyday essentials
+            </div>
+
+        </div>
+
+
+
+        <div class="hero-visual">
+
+            <div class="pink-circle"></div>
+
+
+            <img
+                src="images/makeup.jpg"
+                alt="Rosé Beauty Makeup Collection"
+            >
+
+
+            <div class="floating-card">
+
+                <span>BEST SELLER</span>
+
+                <strong>
+                    Rosé Lipstick
+                </strong>
+
+                <small>
+                    ₱379.00
+                </small>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =====================================================
+         ABOUT
+    ====================================================== -->
+
+    <section class="section about" id="about">
+
+
+        <div class="section-heading">
+
+            <span>
+                OUR STORY
+            </span>
+
+            <h2>
+                Beauty should feel
+                <em>effortless.</em>
+            </h2>
+
+        </div>
+
+
+
+        <div class="about-grid">
+
+
+            <div class="about-image">
+
+                <img
+                    src="images/cover.jpg"
+                    alt="Rosé Beauty Collection"
+                >
+
+
+                <div class="experience-card">
+
+                    <strong>
+                        01
+                    </strong>
+
+                    <span>
+                        Simple beauty.<br>
+                        Thoughtfully chosen.
+                    </span>
+
+                </div>
+
+            </div>
+
+
+
+            <div class="about-text">
+
+                <p class="about-lead">
+                    Makeup is more than just products.
+                    It is a small part of the moments
+                    that make you feel confident and
+                    comfortable in your own way.
+                </p>
+
+
+                <p>
+                    Rosé Beauty was created to bring
+                    together everyday makeup essentials
+                    with a soft, modern, and elegant
+                    aesthetic.
+                </p>
+
+
+                <p>
+                    From natural everyday looks to
+                    special occasions, our collection
+                    offers products that are simple to
+                    explore and easy to love.
+                </p>
+
+
+                <a href="shop.html" class="text-link">
+                    Explore our collection →
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =====================================================
+         CATEGORY PREVIEW
+    ====================================================== -->
+
+    <section class="section products">
+
+
+        <div class="products-heading">
+
+            <div class="section-heading">
+
+                <span>
+                    EXPLORE BEAUTY
+                </span>
+
+                <h2>
+                    Find your
+                    <em>favorites.</em>
+                </h2>
+
+            </div>
+
+
+            <p>
+                Explore our beauty categories and
+                discover makeup essentials made for
+                everyday beauty.
+            </p>
+
+        </div>
+
+
+
+        <div class="category-title">
+
+            <span>
+                SHOP BY CATEGORY
+            </span>
+
+            <h3>
+                Your beauty, your collection.
+            </h3>
+
+        </div>
+
+
+
+        <div class="category-grid">
+
+
+            <!-- LIPS -->
+
+            <a
+                href="shop.html#lips"
+                class="category-card"
+            >
+
+                <img
+                    src="images/lips.jpg"
+                    alt="Lips Makeup"
+                >
+
+                <div class="category-overlay">
+
+                    <span>
+                        CATEGORY 01
+                    </span>
+
+                    <h3>
+                        Lips
+                    </h3>
+
+                    <small>
+                        Lipsticks • Tints • Gloss
+                    </small>
+
+                </div>
+
+            </a>
+
+
+
+            <!-- FACE -->
+
+            <a
+                href="shop.html#face"
+                class="category-card"
+            >
+
+                <img
+                    src="images/face.jpg"
+                    alt="Face Makeup"
+                >
+
+                <div class="category-overlay">
+
+                    <span>
+                        CATEGORY 02
+                    </span>
+
+                    <h3>
+                        Face
+                    </h3>
+
+                    <small>
+                        Foundation • Concealer • Powder
+                    </small>
+
+                </div>
+
+            </a>
+
+
+
+            <!-- EYES -->
+
+            <a
+                href="shop.html#eyes"
+                class="category-card"
+            >
+
+                <img
+                    src="images/eyes.jpg"
+                    alt="Eye Makeup"
+                >
+
+                <div class="category-overlay">
+
+                    <span>
+                        CATEGORY 03
+                    </span>
+
+                    <h3>
+                        Eyes
+                    </h3>
+
+                    <small>
+                        Mascara • Palette • Eyeliner
+                    </small>
+
+                </div>
+
+            </a>
+
+
+
+            <!-- CHEEKS -->
+
+            <a
+                href="shop.html#cheeks"
+                class="category-card"
+            >
+
+                <img
+                    src="images/cheeks.jpg"
+                    alt="Cheek Makeup"
+                >
+
+                <div class="category-overlay">
+
+                    <span>
+                        CATEGORY 04
+                    </span>
+
+                    <h3>
+                        Cheeks
+                    </h3>
+
+                    <small>
+                        Blush • Cream Blush • Highlighter
+                    </small>
+
+                </div>
+
+            </a>
+
+        </div>
+
+
+
+        <div class="all-products-box">
+
+            <a
+                href="shop.html"
+                class="primary-btn"
+            >
+                View All Products
+            </a>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =====================================================
+         PROMO
+    ====================================================== -->
+
+    <section class="promo">
+
+        <div class="promo-content">
+
+            <span>
+                BEAUTY MADE SIMPLE
+            </span>
+
+            <h2>
+                Come back to the
+                <br>
+                <em>young & beautiful you.</em>
+            </h2>
+
+            <a
+                href="shop.html"
+                class="white-btn"
+            >
+                Shop Now
+            </a>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =====================================================
+         NEWSLETTER
+    ====================================================== -->
+
+    <section class="newsletter">
+
+        <div>
+
+            <span>
+                STAY BEAUTIFUL
+            </span>
+
+            <h2>
+                Get beauty updates.
+            </h2>
+
+        </div>
+
+
+        <form class="newsletter-form">
+
+            <input
+                type="email"
+                placeholder="Enter your email address"
+                required
+            >
+
+            <button type="submit">
+                Subscribe
+            </button>
+
+        </form>
+
+    </section>
+
+
+
+    <!-- =====================================================
+         FOOTER
+    ====================================================== -->
+
+    <footer>
+
+        <div class="footer-top">
+
+
+            <div class="footer-brand">
+
+                <a href="index.html" class="logo">
+                    Rosé<span>Beauty</span>
+                </a>
+
+                <p>
+                    Everyday beauty essentials
+                    designed with simplicity,
+                    elegance, and confidence in mind.
+                </p>
+
+            </div>
+
+
+
+            <div class="footer-column">
+
+                <h4>
+                    EXPLORE
+                </h4>
+
+                <a href="index.html">
+                    Home
+                </a>
+
+                <a href="#about">
+                    About
+                </a>
+
+                <a href="shop.html">
+                    Shop
+                </a>
+
+            </div>
+
+
+
+            <div class="footer-column">
+
+                <h4>
+                    ACCOUNT
+                </h4>
+
+                <a href="shop.html#signin">
+                    Sign In
+                </a>
+
+                <a href="shop.html#signup">
+                    Sign Up
+                </a>
+
+            </div>
+
+
+
+            <div class="footer-column">
+
+                <h4>
+                    CONTACT
+                </h4>
+
+                <a href="shop.html#contact">
+                    Inquiry
+                </a>
+
+                <a href="mailto:rosebeauty@example.com">
+                    Email Us
+                </a>
+
+            </div>
+
+        </div>
+
+
+
+        <div class="footer-bottom">
+
+            <span>
+                © 2026 Rosé Beauty. All rights reserved.
+            </span>
+
+            <span>
+                Made with ♡
+            </span>
+
+        </div>
+
+    </footer>
+
+
+
+    <!-- JAVASCRIPT -->
+
+    <script src="ecommercenew.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sign Up | Rosé Beauty</title>
+
+    <link rel="stylesheet" href="ecommercenew.css">
+
+</head>
+
+
+<body>
+
+
+    <!-- ================= NAVIGATION ================= -->
+
+    <header class="header">
+
+        <nav class="navbar">
+
+            <a href="index.html" class="logo">
+                Rosé<span>Beauty</span>
+            </a>
+
+
+            <ul class="nav-links">
+
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+
+                <li>
+                    <a href="about.html">About</a>
+                </li>
+
+                <li>
+                    <a href="shop.html">Shop</a>
+                </li>
+
+                <li>
+                    <a href="signin.html">Sign In</a>
+                </li>
+
+                <li>
+                    <a href="signup.html">Sign Up</a>
+                </li>
+
+                <li>
+                    <a href="inquiry.html">Contact</a>
+                </li>
+
+            </ul>
+
+
+            <div class="top-search">
+
+                <span>⌕</span>
+
+                <input
+                    type="text"
+                    id="productSearch"
+                    placeholder="Search products..."
+                >
+
+            </div>
+
+
+            <div class="cart">
+
+                🛍️
+
+                <span id="cartCount">0</span>
+
+            </div>
+
+        </nav>
+
+    </header>
+
+
+
+    <main>
+
+
+        <!-- ================= SIGN UP ================= -->
+
+        <section class="account-section pink-bg">
+
+            <div class="account-box reverse">
+
+
+                <div class="account-side">
+
+                    <span>
+                        JOIN ROSÉ BEAUTY
+                    </span>
+
+                    <h2>
+
+                        Your beauty
+                        <em>starts here.</em>
+
+                    </h2>
+
+                    <p>
+
+                        Create an account and become
+                        part of our beauty community.
+
+                    </p>
+
+                </div>
+
+
+
+                <div class="form-area">
+
+                    <h3>
+                        Create Account
+                    </h3>
+
+                    <p class="form-subtitle">
+                        Fill in the information below.
+                    </p>
+
+
+                    <form onsubmit="return validateSignUp()">
+
+
+                        <label>
+                            Full Name
+                        </label>
+
+                        <input
+                            type="text"
+                            id="fullName"
+                            placeholder="Your full name"
+                        >
+
+
+                        <label>
+                            Email Address
+                        </label>
+
+                        <input
+                            type="email"
+                            id="signupEmail"
+                            placeholder="you@example.com"
+                        >
+
+
+                        <label>
+                            Password
+                        </label>
+
+                        <input
+                            type="password"
+                            id="signupPassword"
+                            placeholder="Create a password"
+                        >
+
+
+                        <label>
+                            Confirm Password
+                        </label>
+
+                        <input
+                            type="password"
+                            id="confirmPassword"
+                            placeholder="Confirm your password"
+                        >
+
+
+                        <p
+                            id="signupMessage"
+                            class="form-message">
+                        </p>
+
+
+                        <button
+                            type="submit"
+                            class="form-button"
+                        >
+                            Create Account
+                        </button>
+
+
+                    </form>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+    </main>
+
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        <div class="footer-top">
+
+
+            <div class="footer-brand">
+
+                <a href="index.html" class="logo">
+                    Rosé<span>Beauty</span>
+                </a>
+
+                <p>
+                    Simple beauty for every version of you.
+                </p>
+
+            </div>
+
+
+
+            <div class="footer-column">
+
+                <h4>
+                    SHOP
+                </h4>
+
+                <a href="shop.html">
+                    Lips
+                </a>
+
+                <a href="shop.html">
+                    Face
+                </a>
+
+                <a href="shop.html">
+                    Eyes
+                </a>
+
+                <a href="shop.html">
+                    Cheeks
+                </a>
+
+                <a href="shop.html">
+                    All Products
+                </a>
+
+            </div>
+
+
+
+            <div class="footer-column">
+
+                <h4>
+                    ABOUT
+                </h4>
+
+                <a href="about.html">
+                    Our Story
+                </a>
+
+                <a href="inquiry.html">
+                    Contact
+                </a>
+
+                <a href="inquiry.html">
+                    Inquiry
+                </a>
+
+            </div>
+
+
+
+            <div class="footer-column">
+
+                <h4>
+                    ACCOUNT
+                </h4>
+
+                <a href="signin.html">
+                    Sign In
+                </a>
+
+                <a href="signup.html">
+                    Sign Up
+                </a>
+
+            </div>
+
+
+        </div>
+
+
+
+        <div class="footer-bottom">
+
+            <span>
+                © 2026 Rosé Beauty. All Rights Reserved.
+            </span>
+
+            <span>
+                Made with ♡
+            </span>
+
+        </div>
+
+    </footer>
+
+
+    <script src="ecommercenew.js"></script>
+
+</body>
+
+</html>
